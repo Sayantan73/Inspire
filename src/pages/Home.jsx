@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
-import SmallPinCard from '../components/smallPinCard.jsx';
+import SmallPinCard from '../components/SmallPinCard.jsx';
 
 const Home = () => {
   const authUser = useSelector(state => state.auth.userData);
