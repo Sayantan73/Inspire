@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { useNavigate} from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { authLoginContext } from '../context/authSlice';
-import authService from '../service/authService';
+import { authLoginContext } from '../context/authSlice.js';
+import authService from '../service/authService.js';
 
 const Login = () => {
   const navigate = useNavigate()
